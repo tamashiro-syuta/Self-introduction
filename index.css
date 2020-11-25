@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/* CSSのコメントアウトの仕方　*/
+
+body {
+    background-color: beige;
+    width: 950px;
+    /* サイトを全体的に中心に寄せる↓↓↓ */
+    margin: auto;
+}
+
+header {
+    height: auto;
+    width: auto;
+    font-size: large;
+    padding: 50px;
+    margin-bottom: 30px;
+    border-bottom: 5px solid black;
+    background-color: darksalmon;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+.profile {
+    overflow: hidden;
+    padding-bottom: 50px;
+
+}
+
+div.detail {
+    height: 400px;
+    width: 450px;
+    border: 5px double black;
+    float: left;
+}
+
+p {
+    padding-left: 20px;
+    font-size: larger;
+}
+
+#countDown {
+    color: crimson;
+    font-style: italic;
+    font-weight: bold;
+}
+
+img {
+    height: 400px;
+    width: 380px;
+    float: left;
+    margin-left: 80px;
+
+}
+
+
+
+
+
+
+
+
+.imgNorth {
+    margin-left: 0px;
+}
+
+.imgHobby {
+    margin-left: 230px;
+}
+
+
+
+.North {
+	width:			280px;
+	height:			200px;
+
+	margin:			10px 8px 10px 16px;
+    position:		relative;	/* 相対位置指定 */
+    float: left;
+}
+
+
+
+.North .caption {
+	font-size:		300%;
+	text-align: 		center;
+	padding-top:		180px;
+    color:			#fff;
+}
+
+.North .maskNorth {
+	width:			380px;
+	height:			400px;
+	position:		absolute;	/* 絶対位置指定 */
+	top:			0%;
+	left:			0%;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0, 0, 0, 0.6);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+    transition:		all 0.2s ease;
+
+}
+
+.maskNorth:hover {
+    opacity:		1;	/* マスクを表示する */
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.Hobby {
+	width:			280px;
+	height:			200px;
+
+	margin:			10px 8px 10px 16px;
+    position:		relative;	/* 相対位置指定 */
+    float: left;
+}
+
+.Hobby .caption {
+	font-size:		300%;
+	text-align: 		center;
+	padding-top:		180px;
+    color:			#fff;
+}
+
+.Hobby .maskHobby {
+	width:			380px;
+	height:			400px;
+	position:		absolute;	/* 絶対位置指定 */
+	top:			0%;
+	left:			82%;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.6);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+    transition:		all 0.2s ease;
+    z-index: 2;
+}
+
+.maskHobby:hover {
+    opacity:		1;	/* マスクを表示する */
+    border-radius: 50%;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 200px;
+    position: absolute;/*②絶対位置*/
+    bottom: 0; /*下に固定*/
+  }

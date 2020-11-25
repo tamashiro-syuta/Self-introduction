@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>自己紹介（趣味）</title>
+    <html lang = "ja">
+    <link rel="stylesheet" href="c.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+
+    <main>
+        <div class="tab" id = "js-tab"> <!--  HTMLでは、cssに当てるクラスと、javascriptに当てるidを分けておかないとゴチャゴチャになりやすい -->
+            <div class="tab-nav">
+                <a href="" class="tab-nav-item is-active" data-nav="0">DIY</a>  <!--　is-activeがポイント　-->
+                <a href="" class="tab-nav-item" data-nav="1">ペット</a>
+                <a href="" class="tab-nav-item" data-nav="2">ごはん</a>
+            </div>
+            <div class="tab-contents">
+                
+                <div class="tab-contents-item" data-content="0">
+                    趣味のDIYの一部です。正直DIYで作る方が値段は高くなるけど、自分のオリジナルのものを作るのは楽しいです<br>
+                    <img class="DIY" src="img/DIY/DIY1.JPG">
+                    <img class="DIY" src="img/DIY/DIY2.jpg">
+                    <img class="DIY" src="img/DIY/DIY3.jpg">
+                    <img class="DIY" src="img/DIY/DIY4.jpg">
+                </div>  
+
+                <div class="tab-contents-item" data-content="1">
+                    ペットの”じのん”　犬種はミニチュアダックスで、人懐っこい性格で、初対面でも近くに寄っていきます<br>
+                    <img class="jinon" src="img/jinon/jinon1.jpeg">
+                    <img class="jinon" src="img/jinon/jinon2.jpeg">
+                    <img class="jinon" src="img/jinon/jinon3.jpeg">
+                    <img class="jinon" src="img/jinon/jinon4.jpeg">
+                    <img class="jinon" src="img/jinon/jinon5.jpeg">
+                    <img class="jinon" src="img/jinon/jinon6.jpeg">
+                </div>
+
+                <div class="tab-contents-item" data-content="2">
+                    食べるのが好きなので、最近食べに行ったところの写真を載せました。最近はつけ麺にハマってます。<br>
+                    <img class="eat" src="img/food/food1.JPG">
+                    <img class="eat" src="img/food/food2.JPG">
+                    <img class="eat" src="img/food/food3.JPG">
+                    <img class="eat" src="img/food/food4.JPG">
+                    <img class="eat" src="img/food/food5.jpg">
+                    <img class="eat" src="img/food/food6.JPG">
+                    <img class="eat" src="img/food/food7.JPG">
+                </div>
+
+            </div>
+        </div>
+        <script type="text/javascript" src="TabChange.js"></script>
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+
+</body>
